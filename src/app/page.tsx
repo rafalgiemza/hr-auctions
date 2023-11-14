@@ -219,7 +219,7 @@ export default function Home() {
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="https://discord.gg/M5jqhYHd"
+                  href="https://discord.gg/JhSQ7dJe"
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
