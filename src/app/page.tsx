@@ -2,11 +2,12 @@ import Image from 'next/image'
 
 import IndexNavbar from "~/components/IndexNavbar";
 import Footer from "~/components/Footer";
-import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowTrendUp, faUsers, faCertificate, faCompass, faQuestion } from '@fortawesome/free-solid-svg-icons'
 import { EcommerceCard } from '~/components/EcomerceCard';
+
+export const hrAuctionsDiscordServerInvitationLink = 'https://discord.gg/jG9AQfHQ'
 
 export default function Home() {
   return (
@@ -23,15 +24,15 @@ export default function Home() {
                 Rekrutacje odwrócone, Centrum Doskonalenia Możliwości Kompetencji i Kariery oraz wiele więcej &#129321;
               </p>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Chcesz być na bierząco? Dołacz do naszego discorda!
+                Chcesz być na bieżąco? Dołacz do naszego serwera HR Auction na Discordzie!
               </p>
               <div className="mt-12 py-2 hidden lg:block">
-                <Link href={`#discord`}
-                    className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                <a href={hrAuctionsDiscordServerInvitationLink}
+                    className="ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                     type="button"
                   >
                     Dołączam do discorda
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -219,7 +220,7 @@ export default function Home() {
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="https://discord.gg/jG9AQfHQ"
+                  href={hrAuctionsDiscordServerInvitationLink}
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
