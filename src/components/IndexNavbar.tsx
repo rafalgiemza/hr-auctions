@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { hrAuctionsDiscordServerInvitationLink } from "~/app/page";
+import { hrAuctionsDiscordServerInvitationLink } from "./Consts";
 
 export default function Navbar() {
   return (

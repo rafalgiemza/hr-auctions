@@ -6,8 +6,7 @@ import Footer from "~/components/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowTrendUp, faUsers, faCertificate, faCompass, faQuestion } from '@fortawesome/free-solid-svg-icons'
 import { EcommerceCard } from '~/components/EcomerceCard';
-
-export const hrAuctionsDiscordServerInvitationLink = 'https://discord.gg/jG9AQfHQ'
+import { hrAuctionsDiscordServerInvitationLink } from '~/components/Consts';
 
 export default function Home() {
   return (
@@ -69,10 +68,12 @@ export default function Home() {
           <div className="flex flex-wrap items-center">
             <div className="w-full sm:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-12">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                <img
-                  alt="..."
+                <Image
+                  alt="laptop"
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                   className="w-full align-middle rounded-t-lg"
+                  width={700}
+                  height={466}
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg
