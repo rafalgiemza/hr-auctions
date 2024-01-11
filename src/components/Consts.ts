@@ -1,1 +1,1 @@
-export const hrAuctionsDiscordServerInvitationLink = 'https://discord.gg/jG9AQfHQ'
+export const hrAuctionsDiscordServerInvitationLink = 'https://discord.gg/VrEt8mHKzb'
